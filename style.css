@@ -884,6 +884,10 @@ a.shopitem{ text-decoration:none; }   /* イベント欄ではリンクとして
   padding-bottom:6px; border-bottom:2px solid var(--line);
 }
 .daysec--flush .daysec__title{ border-bottom:none; padding-bottom:0; }
+/* 月イチ番街の縦長カードがスマホでも切れないようにします。
+   トップページの昼バナー（76px）には影響させず、
+   「昼の一番街」ページの月イチ番街だけ152pxを確保します。 */
+#page-daytime .ncarousel{ height:152px; }
 .daysec__note{ margin:4px 0 10px; font-size:.8rem; color:var(--muted); }
 
 /* --- お店の紹介カード --- */

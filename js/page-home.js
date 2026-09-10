@@ -327,7 +327,7 @@ function startNoonCarousel() {
  * ============================================================= */
 
 const ACCENT_MAX     = 3;        // 1日に出す目印の数の上限
-const ACCENT_MIN_GAP = 60;       // 目印どうしを離す最小の間隔（分）
+const ACCENT_MIN_GAP = 90;       // 目印どうしを離す最小の間隔（分）
 // 目印を出す時間帯は、上のほうで決めた DAYTIME_FROM / DAYTIME_TO（9:00〜16:00）を使います
 
 /* 「昼の一番街」で紹介しているお店（daytimeNote つき）が、
